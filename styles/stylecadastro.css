@@ -1,0 +1,228 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    width: 100%;
+    background-color: beige;
+    box-sizing: border-box;
+    color: darkgreen;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+#MenuNavegaçãoLateralEsquerda, #MenuNavegaçãoLateralDireita {
+    width: 200px;
+    background-color: green;
+    padding: 15px;
+    height: auto;
+    overflow-y: auto;
+}
+
+#MenuNavegaçãoLateralEsquerda a, #MenuNavegaçãoLateralDireita a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+    background-color: lightgreen;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+#MenuNavegaçãoLateralEsquerda a:hover, #MenuNavegaçãoLateralDireita a:hover {
+    background-color: darkgreen;
+}
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+footer {
+    background-color: beige;
+    color: darkgreen;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+#BotaoRedirecionamentoCadastro img{
+    width: 12px;
+    height: 12px;
+}
+#BotaoRedirecionamentoLogin img{
+    width: 12px;
+    height: 12px;
+}
+#Instagram img{
+    width: 15px;
+    height: 15px;
+}
+#X img{
+    width: 15px;
+    height: 15px;
+}
+#Youtube img{
+    width: 15px;
+    height: 15px;
+}
+#TikTok img{
+    width: 15px;
+    height: 15px;
+}
+#Email img{
+    width: 15px;
+    height: 15px;
+}
+#LocalizacaoSedeCorporativa img{
+    width: 15px;
+    height: 15px;
+    margin-right: 90px;
+}
+#LogoTitulo {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex: 1;
+}
+
+#LogoTitulo figure {
+    margin: 0;
+}
+
+#LogoTitulo h1 {
+    margin-left: 20px;
+    text-align: center; 
+    flex: 1;
+}
+
+#Botoes {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#RedesSociais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#LocalizacaoSedeCorporativa {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 20px;
+    flex-basis: 100%;
+    text-align: center;
+}
+#BotoesRedes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#LocalizacaoSedeCorporativa a {
+    text-align: left;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #4a6041; 
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #b5c99a;
+    border-radius: 5px;
+    background-color: #ffffff; 
+    color: #4a6041; 
+    font-size: 14px;
+}
+
+input[type="button"],
+input[type="reset"] {
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #7bb774; 
+    color: #ffffff; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover,
+input[type="reset"]:hover {
+    background-color: #5e8e52;
+}
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: lightgreen;
+    margin-top: 10px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: darkgreen;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+@media (max-width: 767px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    #MenuNavegaçãoLateralEsquerda {
+        width: 100%;
+        padding: 10px;
+    }
+}
+@media (min-width: 992px) {
+    body {
+        font-size: 16px;
+        padding: 20px;
+    }
+
+    #MenuNavegaçãoLateralEsquerda {
+        width: 250px;
+    }
+}

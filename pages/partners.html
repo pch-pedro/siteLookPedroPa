@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Pedro Henrique Pacheco de Souza">
+    <meta name="generator" content="Visual Studio Code">
+    <meta name="description" content="Site Oficial do Schlange Football Club">
+    <meta name="keywords" content="Football, Team, Sport">
+    <link rel="icon" type="image/x-icon" href="../images/SchlangeFCLogoIco.ico">
+    <title>Schlange Football Club</title>
+    <link rel="stylesheet" href="../styles/stylepartner.css">
+</head>
+<body>
+
+    <header>
+        <section id="LogoTitulo">
+            <figure>
+                <img src="../images/SchlangeFCLogo.png" alt="Escudo do Schlange F.C">
+                <figcaption>Escudo Oficial do Schlange F.C</figcaption>
+            </figure>
+            <h1>Schlange Football Club</h1>
+        </section>
+        
+        <section id="BotoesRedes">
+            <section id="Botoes">
+                <nav>
+                    <button type="button" onclick="RedirecionamentoCadastro()" id="BotaoRedirecionamentoCadastro">
+                        <img src="../images/IconeCadastro.png" alt="Bonequinho">
+                        Cadastre-se
+                    </button>
+                    <button type="button" onclick="RedirecionamentoLogin()" id="BotaoRedirecionamentoLogin">
+                        <img src="../images/IconeCadastro.png" alt="Bonequinho">
+                        Faça Login
+                    </button>
+                </nav>
+            </section>
+            
+            <section id="RedesSociais">
+                <section id="Instagram">
+                    <img src="../images/IconeInstagram.png" alt="Ícone do Instagram">
+                    <span>schlangefc.oficial</span>
+                </section>
+                <section id="X">
+                    <img src="../images/IconeX.png" alt="Ícone do X">
+                    <span>oficial.schlangefc</span>
+                </section>
+                <section id="Youtube">
+                    <img src="../images/IconeYoutube.png" alt="Ícone do Youtube">
+                    <span>Schlange Vídeos</span>
+                </section>
+                <section id="TikTok">
+                    <img src="../images/IconeTikTok.png" alt="Ícone do TikTok">
+                    <span>schlangefc.shorts</span>
+                </section>
+                <section id="Email">
+                    <img src="../images/IconeEmail.png" alt="Ícone do Email">
+                    <span>contato@schlangefc.com.br</span>
+                </section>
+            </section>
+        </section>
+        
+        <br>
+        <br>
+        
+        <address id="LocalizacaoSedeCorporativa">
+            <img onmouseover="InstrucaoLocalizacao()" src="../images/IconeLocalizacao.png" alt="Ícone de Localização">
+            <a href="../images/SedeCorporativaSchlangeFC.png" target="_blank">Sede Corporativa do Schlange F.C</a>
+            <br>
+            Av. das Américas 3900, Rio de Janeiro, RJ, 22631-003
+        </address>
+    </header>
+
+    <section class="container">
+        <nav id="MenuNavegaçãoLateralEsquerda">
+            <a href="../index.html">Página Principal</a>
+            <a href="../pages/about.html">Sobre Nós</a>
+            <a href="../pages/partners.html">Conheça Nossos Parceiros</a>
+            <a href="../pages/form.html">Contato</a>
+            <section class="dropdown">
+                <a>Conheça nossos itens colecionaveis</a>
+                <section class="dropdown-content">
+                    <a>Camisas Temporada 24</a>
+                    <a>Shorts Temporada 24</a>
+                    <a>Chuteiras Temporada 24</a>
+                </section>
+            </section>
+        </nav>
+        <main>
+            <h2>Sejam Bem vindos à nossa página de Parceiros</h2>
+            <p> Aqui você poderá conhecer alguns de nossos parceiros e como eles nos ajudam</p>
+
+            <section>
+                <p >
+                    Primeiro, nós temos o nosso patrocinador de materiais esportivos. A puma:
+                    <figure id="Patrocinador1">
+                        <img src="../images/PumaLogo.png" alt="Logo da Puma">
+                        <figcaption>Logo da Puma.</figcaption>
+                    </figure>
+                </p>
+                <p>
+                    Agora temos nosso patrocinador de suplementos alimentares. A Growth:
+                    <figure id="Patrocinador2">
+                        <img src="../images/Growth.png" alt="Logo da Growth">
+                        <figcaption>Logo da Growth</figcaption>
+                    </figure>
+                </p>
+                <p>
+                    Aqui temos nosso patrocinador de bebidas. A Gatorade:
+                    <figure id="Patrocinador3">
+                        <img src="../images/GatoradeLogo.png" alt="Logo da Gatorade">
+                        <figcaption>Logo da Gatorade</figcaption>
+                    </figure>
+                </p>
+                <p>
+                    Já chegando ao fim, nós temos nosso patrocinador de materiais eletrônicos. A Samsung:
+                    <figure id="Patrocinador4">
+                        <img src="../images/SamsungLogo.png" alt="Logo da Samsung">
+                        <figcaption>Logo da Samsung</figcaption>
+                    </figure>
+                </p>
+                <p>
+                    Por último, mas não menos importante, nós temos nosso patrocinador de viagens aéreas. A Azul:
+                    <figure id="Patrocinador5">
+                        <img src="../images/AzulLogo.png" alt="Logo da Azul">
+                        <figcaption>Logo da Azul</figcaption>
+                    </figure>
+                </p>
+            </section>
+        </main>
+
+        <nav id="MenuNavegaçãoLateralDireita">
+            <a href="#Patrocinador5">Veja nosso patrocinador do Mês</a>
+        </nav>
+
+    </section>
+
+    <footer>
+        <p>Copyright 2024 Schlange FC. Todos os direitos reservados</p>
+        <p>Fundador do time: Pedro Henrique Pacheco de Souza</p>
+        <p>Email para contato profissional pedro.pacheco@schlangefc.com.br</p>
+    </footer>
+    <script src="../scripts/scriptpartner.js"></script>
+</body>
+</html>

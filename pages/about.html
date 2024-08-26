@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Pedro Henrique Pacheco de Souza">
+    <meta name="generator" content="Visual Studio Code">
+    <meta name="description" content="Site Oficial do Schlange Football Club">
+    <meta name="keywords" content="Football, Team, Sport">
+    <link rel="icon" type="image/x-icon" href="../images/SchlangeFCLogoIco.ico">
+    <title>Schlange Football Club</title>
+    <link rel="stylesheet" href="../styles/styleabout.css">
+</head>
+<body>
+
+    <header>
+        <section id="LogoTitulo">
+            <figure>
+                <img src="../images/SchlangeFCLogo.png" alt="Escudo do Schlange F.C">
+                <figcaption>Escudo Oficial do Schlange F.C</figcaption>
+            </figure>
+            <h1>Schlange Football Club</h1>
+        </section>
+        
+        <section id="BotoesRedes">
+            <section id="Botoes">
+                <nav>
+                    <button type="button" onclick="RedirecionamentoCadastro()" id="BotaoRedirecionamentoCadastro">
+                        <img src="../images/IconeCadastro.png" alt="Bonequinho">
+                        Cadastre-se
+                    </button>
+                    <button type="button" onclick="RedirecionamentoLogin()" id="BotaoRedirecionamentoLogin">
+                        <img src="../images/IconeCadastro.png" alt="Bonequinho">
+                        Faça Login
+                    </button>
+                </nav>
+            </section>
+            
+            <section id="RedesSociais">
+                <section id="Instagram">
+                    <img src="../images/IconeInstagram.png" alt="Ícone do Instagram">
+                    <span>schlangefc.oficial</span>
+                </section>
+                <section id="X">
+                    <img src="../images/IconeX.png" alt="Ícone do X">
+                    <span>oficial.schlangefc</span>
+                </section>
+                <section id="Youtube">
+                    <img src="../images/IconeYoutube.png" alt="Ícone do Youtube">
+                    <span>Schlange Vídeos</span>
+                </section>
+                <section id="TikTok">
+                    <img src="../images/IconeTikTok.png" alt="Ícone do TikTok">
+                    <span>schlangefc.shorts</span>
+                </section>
+                <section id="Email">
+                    <img src="../images/IconeEmail.png" alt="Ícone do Email">
+                    <span>contato@schlangefc.com.br</span>
+                </section>
+            </section>
+        </section>
+        
+        <br>
+        <br>
+        
+        <address id="LocalizacaoSedeCorporativa">
+            <img onmouseover="InstrucaoLocalizacao()" src="../images/IconeLocalizacao.png" alt="Ícone de Localização">
+            <a href="../images/SedeCorporativaSchlangeFC.png" target="_blank">Sede Corporativa do Schlange F.C</a>
+            <br>
+            Av. das Américas 3900, Rio de Janeiro, RJ, 22631-003
+        </address>
+    </header>
+
+    <section class="container">
+        <nav id="MenuNavegaçãoLateralEsquerda">
+            <a href="../index.html">Página Principal</a>
+            <a href="../pages/about.html">Sobre Nós</a>
+            <a href="../pages/partners.html">Conheça Nossos Parceiros</a>
+            <a href="../pages/form.html">Contato</a>
+            <section class="dropdown">
+                <a>Conheça nossos itens colecionaveis</a>
+                <section class="dropdown-content">
+                    <a>Camisas Temporada 24</a>
+                    <a>Shorts Temporada 24</a>
+                    <a>Chuteiras Temporada 24</a>
+                </section>
+            </section>
+        </nav>
+        <main>
+            <h2>Aqui você saberá com detalhes sobre o Schlange F.C</h2>
+            <p>
+                <pre style="font-family: Arial, Helvetica, sans-serif; font-size: 12;">
+                    O Schlange F.C é um time de futebol que foi fundado por Pedro Henrique Pacheco de Souza.
+                    Pedro é muito apaixonado por futebol. Entretanto, notou que a essência do futebol brasileiro
+                    estava acabadano. Tendo em vista que, muitos jogadores deixarem de jogar por amor ao esporte 
+                    e passaram à jogar visando apenas a questão monetária, o que é compreensível. Por outro lado,
+                    Pedro acredita que público merece ser representado por atletas que realmente amam o time que 
+                    jogam e com a mentalidade do futebol arte. 
+                    Com base nisso, Pedro decidiu criar um clube onde o que é valorizado é o futebol arte, focando
+                    na individualidade de cada jogador, para que cada um execute 100% de seu potencial e não fique 
+                    preso à táticas milaborantes dos técnicos. Além disso, Pedro também adotou uma política onde não
+                    são contradores jogadores de outros times sem antes o mesmo passar em um teste de conhecimento sobre
+                    o clube Schlange F.C. Ademais, uma das formas mais fáceis de entrar no time é desde a base, onde as 
+                    crianças aprendem desde cedo o que é fazer parte do time Schlange FC.
+                    Em conclusão, por mais que seja bem divergente do convencional as estratégias de Pedro estão dando
+                    muito certo, você pode ver pelalista de títulos que conquistamos até agora em nossa página principal.
+                    Basta clicar no menu de navegação no canto esquerdo de sua tela. 
+                </pre>
+                <figure id="Logo">
+                    <img src="../images/SchlangeFCLogoSemFundo.png">
+                    <figcaption>Logo do Schlange FC</figcaption>
+                </figure>
+            </p>
+        </main>
+        <nav id="MenuNavegaçãoLateralDireita">
+            <a href="#Logo">Veja a Logo da nossa Instituição</a>
+        </nav>
+    </section>
+
+    <footer>
+        <p>Copyright 2024 Schlange FC. Todos os direitos reservados</p>
+        <p>Fundador do time: Pedro Henrique Pacheco de Souza</p>
+        <p>Email para contato profissional pedro.pacheco@schlangefc.com.br</p>
+    </footer>
+    <script src="../scripts/scriptabout.js"></script>
+</body>
+</html>
